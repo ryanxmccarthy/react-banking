@@ -8,7 +8,15 @@ const Navbar = () => {
             <NavbarContainer>
                 <NavLogo to='/'>
                     dolla
-                </NavLogo>             
+                </NavLogo>     
+                <MobileIcon>
+                  <FaBars />  
+                </MobileIcon> 
+                <NavMenu>
+                  <NavItem>
+                    <NavLinks to='about'>About</NavLinks>
+                  </NavItem>  
+                </NavMenu>       
             </NavbarContainer>
         </Nav>
       </>
