@@ -6,9 +6,9 @@ const Navbar = () => {
       <>
         <Nav>
             <NavbarContainer>
-                <NavLogo>
+                <NavLogo to='/'>
                     dolla
-                </NavLogo>
+                </NavLogo>             
             </NavbarContainer>
         </Nav>
       </>
