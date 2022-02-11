@@ -67,7 +67,7 @@ export const NavMenu = styled.ul`
     }
 `
 
-export const NavItem = stled.li`
+export const NavItem = styled.li`
     height: 80px;
 `
 
@@ -79,4 +79,8 @@ export const NavLinks = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+
+    &.active {
+        border-bottom: 3px solid #01bf71;
+    }
 `
