@@ -26,7 +26,10 @@ const Navbar = () => {
                   <NavItem>
                     <NavLinks to='signup'>Sign Up</NavLinks>
                   </NavItem>     
-                </NavMenu>       
+                </NavMenu>
+                <NavBtn>
+                  <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+                </NavBtn>
             </NavbarContainer>
         </Nav>
       </>
