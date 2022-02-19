@@ -2,7 +2,11 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <SidebarContainer>
+        <Icon>
+            <CloseIcon />
+        </Icon>
+    </SidebarContainer>
   )
 }
 
