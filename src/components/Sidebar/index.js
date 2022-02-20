@@ -22,6 +22,9 @@ const Sidebar = () => {
               Sign Up
             </SidebarLink>
           </SidebarMenu>
+          <SideBtnWrap>
+            <SidebarRoute>Sign In</SidebarRoute>
+          </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
   )
