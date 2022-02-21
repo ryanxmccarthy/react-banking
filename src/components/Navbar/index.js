@@ -3,6 +3,8 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, 
 import { FaBars } from 'react-icons/fa'
 
 const Navbar = () => {
+  
+
   return (
       <>
         <Nav>
