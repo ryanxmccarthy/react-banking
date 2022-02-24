@@ -12,7 +12,9 @@ const HeroSection = () => {
           <HeroH1>Virtual Banking Made Easy</HeroH1>
           <HeroP>Sign up for a new account today and receieve $250 in credit towards your next payment</HeroP>
           <HeroBtnWrapper>
-            <Button to='signup'></Button>
+            <Button to='signup'>
+              Get started {hover ? <ArrowForward /> : <ArrowRight />}
+            </Button>
           </HeroBtnWrapper>
         </HeroContent>
     </HeroContainer>
