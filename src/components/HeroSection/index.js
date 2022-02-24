@@ -8,6 +8,13 @@ const HeroSection = () => {
         <HeroBg>
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
+        <HeroContent>
+          <HeroH1>Virtual Banking Made Easy</HeroH1>
+          <HeroP>Sign up for a new account today and receieve $250 in credit towards your next payment</HeroP>
+          <HeroBtnWrapper>
+            <Button to='signup'></Button>
+          </HeroBtnWrapper>
+        </HeroContent>
     </HeroContainer>
   )
 }
