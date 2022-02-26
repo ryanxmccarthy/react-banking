@@ -78,3 +78,9 @@ export const HeroBtnWrapper = styled.div`
     flex-direction: column;
     align-items: center;
 `
+
+export const ArrowForward = styled(MdArrowForward)`
+    margin-let: 8px;
+    font-size: 20px;
+`
+
