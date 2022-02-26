@@ -84,3 +84,7 @@ export const ArrowForward = styled(MdArrowForward)`
     font-size: 20px;
 `
 
+export const ArrowRight = styled(MdKeyboardArrowRight)`
+    margin-let: 8px;
+    font-size: 20px;
+`
