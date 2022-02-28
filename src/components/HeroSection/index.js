@@ -5,7 +5,9 @@ import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrap
 const HeroSection = () => {
   const [hover, setHover] = useState(false)
 
-  
+  const onHover = () => {
+    setHover(!hover)
+  }
 
   return (
     <HeroContainer>
@@ -16,7 +18,7 @@ const HeroSection = () => {
           <HeroH1>Virtual Banking Made Easy</HeroH1>
           <HeroP>Sign up for a new account today and receieve $250 in credit towards your next payment</HeroP>
           <HeroBtnWrapper>
-            <Button to='signup'>
+            <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover}>
               Get started {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
