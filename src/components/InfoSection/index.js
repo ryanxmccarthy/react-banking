@@ -12,7 +12,7 @@ const InfoSection = () => {
                         <TextWrapper>
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
-                            <Subtitle>{Subtitle}</Subtitle>
+                            <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap>
                                 <Button to='home'></Button>
                             </BtnWrap>
