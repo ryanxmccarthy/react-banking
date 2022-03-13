@@ -10,9 +10,9 @@ const InfoSection = () => {
                 <InfoRow imgStart={imgStart}>
                     <Column1>
                         <TextWrapper>
-                            <TopLine>TopLine</TopLine>
-                            <Heading>Heading</Heading>
-                            <Subtitle>Subtitle</Subtitle>
+                            <TopLine>{topLine}</TopLine>
+                            <Heading lightText={lightText}>{headline}</Heading>
+                            <Subtitle>{Subtitle}</Subtitle>
                             <BtnWrap>
                                 <Button to='home'></Button>
                             </BtnWrap>
