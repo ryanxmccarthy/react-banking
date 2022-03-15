@@ -20,7 +20,7 @@ const InfoSection = () => {
                     </Column1>
                     <Column2>
                         <ImgWrap>
-                            <Img />
+                            <Img src={img} alt={alt} />
                         </ImgWrap>
                     </Column2>
                 </InfoRow>   
