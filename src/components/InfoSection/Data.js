@@ -16,16 +16,16 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    darkText: false,
-    lightTextDesc: true,
-    topLine: 'Premium Bank',
+    id: 'discover',
+    lightBg: true,
+    lightText: false,
+    darkText: true,
+    lightTextDesc: false,
+    topLine: 'Unlimited Access',
     headline: 'Unlimited Transactions with zero fees',
     description: 'Get access to our exclusive app that allows you to send unlimited transacations without getting charged any fees.',
     buttonLabel: 'Get started',
-    imgStart: false,
+    imgStart: true,
     img: require('../../images/phonepicutres-TA.png'),
     alt: 'Car',
     dark: true,
