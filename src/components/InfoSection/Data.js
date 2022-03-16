@@ -22,7 +22,7 @@ export const homeObjTwo = {
     darkText: true,
     lightTextDesc: false,
     topLine: 'Unlimited Access',
-    headline: 'Unlimited transactions with zero fees',
+    headline: 'Log in to your account at any time',
     description: 'Get access to our exclusive app that allows you to send unlimited transacations without getting charged any fees.',
     buttonLabel: 'Learn more',
     imgStart: true,
@@ -33,7 +33,7 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: 'about',
+    id: 'signup',
     lightBg: false,
     lightText: true,
     darkText: false,
