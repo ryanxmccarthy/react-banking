@@ -10,6 +10,16 @@ const Services = () => {
                 <ServicesH2>Reduce expenses</ServicesH2>
                 <ServicesP>We help reduce your fees and increase you overall revenue.</ServicesP>
             </ServicesCard>
+            <ServicesCard>
+                <ServicesIcon src={Icon2} />
+                <ServicesH2>Reduce expenses</ServicesH2>
+                <ServicesP>We help reduce your fees and increase you overall revenue.</ServicesP>
+            </ServicesCard>
+            <ServicesCard>
+                <ServicesIcon src={Icon3} />
+                <ServicesH2>Reduce expenses</ServicesH2>
+                <ServicesP>We help reduce your fees and increase you overall revenue.</ServicesP>
+            </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>
   )
