@@ -1,28 +1,18 @@
-import React from 'react'
+import styled from 'styled-components';
 
-const Services = () => {
-  return (
-    <ServicesContainer id='services'>
-        <ServicesH1>Our Services</ServicesH1>
-        <ServicesWrapper>
-            <ServicesCard>
-                <ServicesIcon src={Icon1} />
-                <ServicesH2>Reduce expenses</ServicesH2>
-                <ServicesP>We help reduce your fees and increase you overall revenue.</ServicesP>
-            </ServicesCard>
-            <ServicesCard>
-                <ServicesIcon src={Icon2} />
-                <ServicesH2>Virtual offices</ServicesH2>
-                <ServicesP>Access our platform anywhere in the world.</ServicesP>
-            </ServicesCard>
-            <ServicesCard>
-                <ServicesIcon src={Icon3} />
-                <ServicesH2>Premium benefits</ServicesH2>
-                <ServicesP>Unlock special membership card.</ServicesP>
-            </ServicesCard>
-        </ServicesWrapper>
-    </ServicesContainer>
-  )
-}
+export const ServicesContainer = styled.div`
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #010606;
 
-export default Services
+    @media screen and (max-width: 768px) {
+        height: 1100px;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 1300px;
+    }
+`
