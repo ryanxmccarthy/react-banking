@@ -69,3 +69,13 @@ export const ServicesH1 = styled.h1`
         font-size: 2rem;
     }
 `
+
+export const ServicesH2 = styled.h2`
+    font-size: 1rem;
+    margin-bottom: 10px;
+`
+
+export const ServicesP = styled.p`
+    font-size: 1rem;
+    text-align: center;
+`
