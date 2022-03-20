@@ -1,4 +1,5 @@
 import React from 'react'
+import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesElements'
 
 const Services = () => {
   return (
