@@ -1,4 +1,7 @@
 import React from 'react'
+import Icon1 from '../../images/phonepicutres-TA'
+import Icon2 from '../../images/phonepicutres-TA'
+import Icon3 from '../../images/phonepicutres-TA'
 import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesElements'
 
 const Services = () => {
