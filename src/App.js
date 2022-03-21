@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' index element={<Home />}  />
-        <Route path='/signin' component={SignInPage} exact />
+        <Route path='/signin' element={<SignInPage />} />
       </Routes>
     </Router>
   );
