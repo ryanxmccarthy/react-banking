@@ -9,6 +9,11 @@ const Footer = () => {
                     <FooterLinkItems>
                         <FooterLinkTitle>
                             <FooterLink to='/signin'>About us</FooterLink>
+                            <FooterLink to='/signin'>About us</FooterLink>
+                            <FooterLink to='/signin'>About us</FooterLink>
+                            <FooterLink to='/signin'>About us</FooterLink>
+                            <FooterLink to='/signin'>About us</FooterLink>
+                            <FooterLink to='/signin'>About us</FooterLink>
                         </FooterLinkTitle>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
