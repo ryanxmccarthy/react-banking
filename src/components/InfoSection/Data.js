@@ -34,9 +34,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'signup',
-    lightBg: false,
-    lightText: true,
-    darkText: false,
+    lightBg: true,
+    lightText: false,
+    darkText: true,
     lightTextDesc: true,
     topLine: 'Premium Bank',
     headline: 'Unlimited transactions with zero fees',
